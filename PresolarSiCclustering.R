@@ -7,20 +7,11 @@
 library(readxl)
 library(janitor)
 library(tidyr)
-library(corrplot)
-library(RColorBrewer)
 library(factoextra)
-library(dendextend)
-library(devtools)
 library(FactoMineR)
 library(mclust)
 library(plotly)
-library(grid)
-library(ggsci)
 library(xlsx)
-library(ggpubr)
-library(fpc)
-library(cluster)
 library(tidyverse)
 
 # Clearing variables and plots
@@ -363,15 +354,8 @@ var <- get_pca_var(pca_out)
 
 fviz_contrib(pca_out, choice = "var", axes = 1)
 dev.copy2pdf(file = file.path("Figures", paste0("Contrib_var1_pca_DB4", ".pdf")), width = 8, height = 8, useDingbats=FALSE)
-dev.off()
 
 fviz_contrib(pca_out, choice = "var", axes = 2)
 dev.copy2pdf(file = file.path("Figures", paste0("Contrib_var2_pca_DB4", ".pdf")), width = 8, height = 8, useDingbats=FALSE)
-dev.off()
-
-
-
-
-
 
 
