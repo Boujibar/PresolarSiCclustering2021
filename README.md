@@ -1,6 +1,6 @@
 # PresolarSiCclustering2021
 
-This R code is meant to be used for clustering data on presolar silicon carbide (SiC) grains.
+This R code is meant to be used for clustering data on presolar silicon carbide (SiC) grains. DOI: 10.5281/zenodo.4304837
 
 It is linked to the article currently in revision for publication in The Astrophysical Journal Letters:
 "Cluster analysis of presolar silicon carbide grains: evaluation of their classification and astrophysical implications"
